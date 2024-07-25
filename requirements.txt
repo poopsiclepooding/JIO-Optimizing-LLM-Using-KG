@@ -1,0 +1,10 @@
+pandas
+json
+json_repair
+langchain
+langchain_community
+langchain_core
+langchain_groq
+neo4j
+re
+sentence_transformers
