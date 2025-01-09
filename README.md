@@ -16,6 +16,22 @@ This repository showcases the following :
    
 5. **Answer Generation**: An LLM processes the retrieved context and user queries to generate answers.
 
+## Installion and Files
+
+To run the code:
+
+1. Make a python environment using the `requirmenets.txt` and activate it
+
+2. Clone the repository
+   ```bash
+   git clone https://github.com/username/RAG-Knowledge-Graphs.git
+   cd RAG-Knowledge-Graphs
+   ```
+
+3. Use `jio_faq_data_extract.ipynb` for extracting FAQ data from the site.
+   
+4. Use  `jio_kg_optimized_llm.ipynb` for seeing all other functionality.
+
 ## Workflow
 
 1. **Data Extraction with Selenium**
@@ -57,18 +73,4 @@ Example output schema:
    Generate contextual and precise answers.
 
 
-## Installion and Files
 
-To run the code:
-
-1. Make a python environment using the `requirmenets.txt` and activate it
-
-2. Clone the repository
-   ```bash
-   git clone https://github.com/username/RAG-Knowledge-Graphs.git
-   cd RAG-Knowledge-Graphs
-   ```
-
-3. Use `jio_faq_data_extract.ipynb` for extracting FAQ data from the site.
-   
-4. Use  `jio_kg_optimized_llm.ipynb` for seeing all other functionality.
