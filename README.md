@@ -63,5 +63,5 @@ To run the code:
    git clone https://github.com/username/RAG-Knowledge-Graphs.git
    cd RAG-Knowledge-Graphs
    ```
-3. Use  for extracting FAQ data from the site.
-4. Use  for seeing all other functionality.
+3. Use `jio_faq_data_extract.ipynb` for extracting FAQ data from the site.
+4. Use  `jio_kg_optimized_llm.ipynb` for seeing all other functionality.
