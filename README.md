@@ -51,3 +51,17 @@ Example output schema:
 6. **Answer Generation with LLM**
    Pass retrieved data along with the user query to the LLM.
    Generate contextual and precise answers.
+
+
+## Installion and Files
+
+To run the code:
+
+1. Make a python environment using the `requirmenets.txt` and activate it
+2. Clone the repository
+   ```bash
+   git clone https://github.com/username/RAG-Knowledge-Graphs.git
+   cd RAG-Knowledge-Graphs
+   ```
+3. Use  for extracting FAQ data from the site.
+4. Use  for seeing all other functionality.
