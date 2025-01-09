@@ -7,9 +7,13 @@ This project involves implementing a RAG(Retireval Augmented Generation) system 
 This repository showcases the following :
 
 1. **Data Extraction**: Data is scraped from a JIO FAQ site using Selenium.
+   
 2. **Data Structuring**: Unstructured data is processed using a Large Language Model (LLM) to generate a structured Knowledge Graph (KG).
+   
 3. **Knowledge Graph Storage**: The structured KG is stored in Neo4j, a graph database.
+   
 4. **Retrieval and Augmentation**: Using Cypher queries, relevant data is retrieved from the KG.
+   
 5. **Answer Generation**: An LLM processes the retrieved context and user queries to generate answers.
 
 ## Workflow
@@ -58,10 +62,13 @@ Example output schema:
 To run the code:
 
 1. Make a python environment using the `requirmenets.txt` and activate it
+
 2. Clone the repository
    ```bash
    git clone https://github.com/username/RAG-Knowledge-Graphs.git
    cd RAG-Knowledge-Graphs
    ```
+
 3. Use `jio_faq_data_extract.ipynb` for extracting FAQ data from the site.
+   
 4. Use  `jio_kg_optimized_llm.ipynb` for seeing all other functionality.
