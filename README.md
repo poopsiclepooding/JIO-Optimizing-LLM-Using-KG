@@ -1,4 +1,4 @@
-# JIO-Optimizing-LLM-Using-KG
+# JIO Optimizing LLM Using KG
 
 This project involves implementing a RAG(Retireval Augmented Generation) system with the help of KG(Knowledge Graphs) to improve accuracy of retireval and answer. 
 
